@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1B1E21;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1180px;
+    margin: auto;
+}
+.logo img{
+    margin-top: 26px;
+    height: 28px;
+}
+header{
+    background: rgba(0,0,0,0.4);
+    height: 85px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: 60px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.menu a:hover{
+    border-bottom: 3px solid #FFC107;
+}
+.contact{
+    box-sizing: border-box;
+    padding: 7px 14px !important;
+    background: #1B1E21;
+    border: 2px solid #FFC107;
+    border-radius: 50px;
+}
+.contact:hover{
+    box-sizing: border-box;
+    border: 2px solid #FFC107;
+    background: #FFC107;
+    color: #1B1E21;
+}
+.wrap{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.leader{
+    height: calc(100vh - 85px);
+}
+.leader_head{
+    display: flex;
+    justify-content: space-between;
+}
+.leader_one{
+    margin-top: 190px;
+}
+.full{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+}
+.dev{
+    font-size: 90px;
+    font-weight: bold;
+    color: #FFC107;
+}
+.desc{
+    width: 600px;
+    display: flex;
+    margin-top: 25px;
+}
+.block{
+    height: 150px;
+    width: 80px;
+    border: 3px solid #FFC107;
+}
+.desc_text{
+    width: 450px;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.6;
+}
+.cont{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.cont a{
+    box-sizing: border-box;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #fff;
+    background: #1B1E21;
+    border: 2px solid #FFC107;
+    border-radius: 50px;
+    font-size: 22px;
+}
+.cont a:hover{
+    box-sizing: border-box;
+    border: 2px solid #FFC107;
+    background: #FFC107;
+}
+.leader_two img{
+    margin-top: 50px;
+    height: 720px;
+}
